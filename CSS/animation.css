@@ -138,7 +138,7 @@
 @keyframes from-left {
     from {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-10px);
     }
 
     to {
@@ -192,7 +192,7 @@
 @keyframes from-right {
     from {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(10px);
     }
 
     to {
