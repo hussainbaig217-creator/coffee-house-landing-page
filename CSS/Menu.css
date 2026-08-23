@@ -1,0 +1,123 @@
+
+:root {
+    --card-color: #fffaf5;
+    --card-text: #3b141c;
+    --card-description: #28201f;
+    --card-accent: #f3961c;
+
+    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+    --card-radius: 18px;
+}
+
+.menu-section{
+    padding: 80px 20px;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    
+}
+.menu-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: ui-monospace;
+    letter-spacing: 1px;
+    color: #f8a813;
+}
+.menu-grid{
+    /* if you want to use it you can but its broken !!!!
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem; 
+    margin: 0 auto;
+    max-width: var(--site-max-width); */
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+.menu-card{
+    flex: 1 1 300px;
+    max-width: 350px;
+    background-color: var(--card-color);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 12px;
+    border-bottom: 3px solid coral;
+    border-left: 3px solid salmon;
+    box-shadow: 0 4px 10px var(--card-shadow);
+    transition: all 0.3s ease;
+}
+.menu-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px #ff9125;
+    background-color: #eeb0fef9;
+}
+.menu-card h3{
+        font-size: 1.4rem;
+    font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #814c00;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.menu-card p{
+    color: var(--card-description);
+    font-size: var(--font-size-m);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.menu-price{
+      font-size: var(--font-size-l);
+    color: var(--card-accent);
+    text-align: right;
+    font-family: serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.menu-btn{
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    background: sandybrown;
+    border-top: 3px solid brown;
+    /* border-left: 3px solid sandybrown; */
+    /* border-bottom: 1px solid sandybrown; */
+    /* border-right: 1px solid sandybrown; */
+    border-right: 3px solid brown;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+}
+.menu-btn:hover{
+    background-color: #f57f2b;
+}
+.menu-btn:active{
+    border-top: 0px solid brown;
+    border-right: 0px solid brown;
+}
+.menu-btn a{
+    color: var(--card-text);
+    text-decoration: none; 
+      cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 12px;
+}
+.menu-image img{
+    max-width: 400px;
+    object-fit: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

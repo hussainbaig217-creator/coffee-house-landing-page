@@ -1,0 +1,83 @@
+
+.Reveiws-section{
+    min-height: 100vh;
+    padding: 70px 20px;
+ background: navajowhite;
+}
+
+.reveiw-section-heading h2{
+      font-size: clamp(2rem, 3vw, 3.2rem);
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:cursive;
+    font-weight: 600;
+}
+.reveiw-section-heading p{
+    text-align: center;
+    font-size: clamp(1.2rem, 1.3rem, 1.4rem);
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.reveiw-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    gap: 2rem;
+   
+
+    max-width: var(--max-width-site);
+    margin: 0 auto;
+}
+.reveiw-card{
+    margin-top: 2rem;
+    flex: 1 1 300px;
+    max-width: 380px;
+    width: 100%;
+     padding: 1rem;
+     background-color: chocolate;
+     border-radius:18px;
+     border: 1px solid black;
+     transition: all 0.3s ease;
+}
+.reveiw-card:hover{
+    transform: translateY(-5px);
+     background-color: rgb(255, 149, 73);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.user-logo{
+    
+    object-fit: cover;
+    width: 100%;
+}
+.user-logo img{
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.reveiw-user h3{
+    text-align: left;
+    font-size: clamp(2rem, 2.1rem, 2.2rem);
+    font-family: cursive;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.reveiw-text p{
+    text-align: left;
+    font-size: clamp(1.2rem, 1.3rem, 1.4rem);
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: 300;
+}
+@media(max-width:900px){
+    .Reveiws-section{
+        min-height: 70dvh;
+    }
+}

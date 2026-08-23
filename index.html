@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website | Coder x Hussain | Latest 2026 page </title>
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/variables.css">
+    <link rel="stylesheet" href="CSS/hero.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/animation.css">
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/Menu.css">
+    <link rel="stylesheet" href="/CSS/Gallery.css">
+    <link rel="stylesheet" href="/CSS/Reveiws.css">
+    <link rel="stylesheet" href="/CSS/Contact.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+</head>
+
+<body>
+    <!--     
+☑ Desktop
+☑ Tablet
+☑ Mobile
+☑ Navbar links
+☑ All section IDs
+☑ Images loading
+☑ Contact form layout
+☑ Gallery
+☑ Reviews
+☑ Animations
+☑ No horizontal overflow
+☑ No broken console errors
+☑ GitHub README
+    -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#" class="nav-logo">
+                <h2>☕Coffee</h2>
+            </a>
+
+            <button class="menu-toggle" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" class="items">Home</a></li>
+                    <li><a href="#about" class="items">About</a></li>
+                    <li><a href="#menu" class="items">MENU</a></li>
+                    <li><a href="#gallery" class="items">Gallery</a></li>
+                    <li><a href="#reviews" class="items">Reviews</a></li>
+                    <li><a href="#contact" class="items">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero section / structure 
+     ┌─────────────────────────────────────────────────────┐
+│  NAVBAR                                              │
+│                                                     │
+│  ┌──────────────────────┐    ┌───────────────────┐  │
+│  │ ☕ Small Badge       │    │                   │  │
+│  │                      │    │                   │  │
+│  │ Main Heading         │    │    COFFEE IMAGE   │  │
+│  │                      │    │                   │  │
+│  │ Short paragraph      │    │                   │  │
+│  │                      │    │                   │  │
+│  │ [Order Now] [Contact]│    │                   │  │
+│  └──────────────────────┘    └───────────────────┘  │
+└─────────────────────────────────────────────────────┘ -->
+    <main id="home">
+        <div class="hero-bg-color">
+            <section class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-badge">☕ Freshly Brewed</div>
+                    <h1 class="hero-h1">Start Your Day <br>
+                        With The <span>Perfect Coffee
+                        </span></h1>
+
+                    <p class="hero-description">Discover rich, aromatic coffee crafted from carefully selected beans.
+                        Every
+                        cup is brewed to bring warmth, energy, and a little joy to your day.</p>
+                    <div class="hero-cta">
+                        <a href="#menu" class="primary-btn button">Order Now</a>
+                        <a href="#contact" class="secondary-btn button">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/cold-beverages.png" alt="hero image">
+                </div>
+            </section>
+        </div> <!--- for bg color-->
+
+        <div class="about-bg-color">
+            <section class="about-section" id="about">
+
+
+                <div class="about-image-wrapper from-left">
+                    <img src="images/burger-frenchfries.png" alt="this is an image of about section">
+                </div>
+                <div class="about-content from-left">
+                    <h2 class="section-title">About Us</h2>
+
+                    <p class="about-description"> At Coffee House, we pride ourselves on being a go-to
+                        destination for coffee lovers and conversation seekers alike.
+                        We're dedicated to providing an exceptional coffee experience
+                        in a cozy and inviting atmosphere, where guests can relax,
+                        unwind, and enjoy their time in comfort.</p>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn dim-btn">Contact us?</a>
+                        <a href="#reviews" class="btn glow-btn">Veiw More</a>
+                    </div>
+                    <div class="about-socials">
+                        <a href="https://www.youtube.com/@YouEdits4" class="btn-links" target="_blank">
+                            <img src="/logo-images/youtube (1).png" alt="this is an image for links" class="link-image">
+                        </a>
+                        <a href="#" class="btn-links" target="_blank">
+                            <img src="/logo-images/linkedin (1).png" alt="this is an image for links"
+                                class="link-image">
+                        </a>
+                        <a href="https://github.com/hussainbaig217-creator" class="btn-links" target="_blank">
+                            <img src="/logo-images/github (1).png" alt="this is an image for links" class="link-image">
+                        </a>
+                        <a href="https://www.instagram.com/spyxhussain/" class="btn-links" target="_blank">
+                            <img src="/logo-images/instagram (1).png" alt="this is an image for links"
+                                class="link-image">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="menu-section" id="menu">
+            <div class="menu-heading">
+                <h2>Our Menu</h2>
+            </div>
+            <div class="menu-grid">
+                <!-- 1st card -->
+                <div class="menu-card down-to-up">
+                    <div class="menu-image">
+                        <img src="/images/refreshment.png" alt="this is an image for menu cards">
+                    </div>
+
+                    <h3>Hot Beverages</h3>
+
+                    <p> Wide range of steaming hot coffee
+                        to make you fresh and light.</p>
+                    <div class="menu-price">
+                        <span>Rs. 450</span>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#" class="menu-order-btn">Order Now</a>
+                    </div>
+                </div>
+                <!-- 2nd card -->
+
+                <div class="menu-card down-to-up">
+                    <div class="menu-image">
+                        <img src="/images/desserts.png" alt="this is an image for menu cards">
+                    </div>
+
+                    <h3>Cold Beverages</h3>
+
+                    <p>Creamy and frothy cold coffee to make you cool.</p>
+                    <div class="menu-price">
+                        <span>Rs. 600</span>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#" class="menu-order-btn">Order Now</a>
+                    </div>
+                </div>
+                <!-- 3rd card -->
+
+                <div class="menu-card down-to-up">
+                    <div class="menu-image">
+                        <img src="/images/special-combo.png" alt="this is an image for menu cards">
+                    </div>
+
+
+                    <h3>Refreshment</h3>
+
+                    <p>Fruit and icy refreshing drinks to make you feel fresh.</p>
+                    <div class="menu-price">
+                        <span>Rs. 500</span>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#" class="menu-order-btn">Order Now</a>
+                    </div>
+                </div>
+                <!-- 4rth card -->
+
+                <div class="menu-card down-to-up">
+                    <div class="menu-image">
+                        <img src="/images/user-1.jpg" alt="this is an image for menu cards">
+                    </div>
+
+
+                    <h3>Special Combos</h3>
+
+                    <p>Your favorite eating and drinking combinations.</p>
+                    <div class="menu-price">
+                        <span>Rs. 799</span>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#" class="menu-order-btn">Order Now</a>
+                    </div>
+
+                </div>
+                <!-- 5th card -->
+
+                <div class="menu-card down-to-up">
+                    <div class="menu-image">
+                        <img src="/images/gallery-1.jpg" alt="this is an image for menu cards">
+                    </div>
+
+
+                    <h3>Dessert</h3>
+
+                    <p>Satisfy your palate and take you on a culinary treat.</p>
+                    <div class="menu-price">
+                        <span>Rs. 670</span>
+                    </div>
+                    <div class="menu-btn down-to-up">
+                        <a href="#" class="menu-order-btn">Order Now</a>
+                    </div>
+
+                </div>
+                <!-- 6th card -->
+
+                <div class="menu-card down-to-up">
+                    <div class="menu-image">
+                        <img src="/images/coffee-hero-section.png" alt="this is an image for menu cards">
+                    </div>
+
+
+                    <h3>Burger & French Fries</h3>
+
+                    <p>Quick bites to satisfy your small hunger.</p>
+                    <div class="menu-price">
+                        <span>Rs. 650</span>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#" class="menu-order-btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="gallery-section" id="gallery">
+        <div class="gallery-heading down-to-up">
+            <h2>Dishes Gallery</h2>
+        </div>
+        <div class="gallery-grid">
+
+            <div class="gallery-item left-right">
+                <img src="/images/hot-beverages.png" alt="Coffee dish">
+            </div>
+
+            <div class="gallery-item  left-right">
+                <img src="/images/gallery-2.jpg" alt="Coffee dish">
+            </div>
+
+            <div class="gallery-item  left-right">
+                <img src="/images/gallery-3.jpg" alt="Coffee dish">
+            </div>
+
+            <div class="gallery-item  left-right">
+                <img src="/images/gallery-4.jpg" alt="Coffee dish">
+            </div>
+
+            <div class="gallery-item  left-right">
+                <img src="/images/gallery-5.jpg" alt="Coffee dish">
+            </div>
+
+            <div class="gallery-item  left-right">
+                <img src="/images/gallery-6.jpg" alt="Coffee dish">
+            </div>
+
+            <div class="gallery-item  left-right">
+                <img src="/images/gallery-3.jpg" alt="Coffee dish">
+            </div>
+
+            <div class="gallery-item  left-right">
+                <img src="/images/gallery-2.jpg" alt="Coffee dish">
+            </div>
+
+        </div>
+    </section>
+    <!-- 
+    ┌──────────────────────────────────┐
+    │                                  │
+    │  ☕ Coffee House        ⭐⭐⭐⭐⭐ │
+    │                                  │
+    │  James Wilson                    │
+    │                                  │
+    │  "The coffee was absolutely      │
+    │   amazing. Great flavor,         │
+    │   friendly service, and a        │
+    │   really cozy atmosphere!"       │
+    │                                  │
+    └──────────────────────────────────┘
+        
+        -->
+    <section class="Reveiws-section" id="reviews">
+        <div class="reveiw-section-heading down-to-up">
+            <h2>What Our Customers Say</h2>
+            <p>We love hearing from our customers. Here's what coffee lovers have to say about their experience at
+                Coffee House.</p>
+        </div>
+        <article>
+            <div class="reveiw-container">
+                <div class="reveiw-card  down-to-up">
+
+                    <div class="review-top top">
+                        <div class="user-logo">
+                            <img src="/images/user-2.jpg" alt="this is an image for reveiwing user logo">
+                        </div>
+                        <div class="reveiw-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div> <!-- reveiw top -->
+                    <!-- For Custumer name -->
+                    <div class="reveiw-user">
+                        <h3>Sarah Thompson</h3>
+                    </div>
+                    <!-- Reveiw text  -->
+                    <div class="reveiw-text">
+                        <p>
+                            “A perfect place to meet friends and enjoy a fresh cup of coffee.”
+                        </p>
+                    </div>
+                </div> <!-- reveiw card closing tag -->
+
+                <!-- 2nd reveiw card -->
+
+                <div class="reveiw-card down-to-up">
+
+                    <div class="review-top  top">
+                        <div class="user-logo">
+                            <img src="/images/user-4.jpg" alt="this is an image for reveiwing user logo">
+                        </div>
+                        <div class="reveiw-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div> <!-- reveiw top -->
+                    <!-- For Custumer name -->
+                    <div class="reveiw-user">
+                        <h3>James Wilson</h3>
+                    </div>
+                    <!-- Reveiw text  -->
+                    <div class="reveiw-text">
+                        <p>
+                            “The espresso was smooth, rich, and absolutely delicious. Definitely coming back!”
+                        </p>
+                    </div>
+                </div> <!-- reveiw card closing tag -->
+
+                <!-- 3rd reveiw card -->
+
+                <div class="reveiw-card left-right">
+
+                    <div class="review-top  top">
+                        <div class="user-logo">
+                            <img src="/images/user-3.jpg" alt="this is an image for reveiwing user logo">
+                        </div>
+                        <div class="reveiw-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div> <!-- reveiw top -->
+                    <!-- For Custumer name -->
+                    <div class="reveiw-user">
+                        <h3>Michael Brown</h3>
+                    </div>
+                    <!-- Reveiw text  -->
+                    <div class="reveiw-text">
+                        <p>
+                            “The cold coffee was fantastic and the dessert was even better. Highly recommended!”
+                        </p>
+                    </div>
+                </div> <!-- reveiw card closing tag -->
+
+                <!-- 4rth reveiw card -->
+
+                <div class="reveiw-card down-to-up">
+
+                    <div class="review-top  top">
+                        <div class="user-logo">
+                            <img src="/images/user-5.jpg" alt="this is an image for reveiwing user logo">
+                        </div>
+                        <div class="reveiw-rating">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div> <!-- reveiw top -->
+                    <!-- For Custumer name -->
+                    <div class="reveiw-user">
+                        <h3>Emily Harris</h3>
+                    </div>
+                    <!-- Reveiw text  -->
+                    <div class="reveiw-text">
+                        <p>
+                            “Beautiful atmosphere, friendly service, and great coffee. I loved the experience.”
+                        </p>
+                    </div>
+                </div> <!-- reveiw card closing tag -->
+            </div><!-- reveiw container closing tag -->
+        </article>
+        <!-- 
+          CONTACT SECTION
+│
+├── Section heading
+│   ├── Contact Us
+│   └── Small description
+│
+└── Contact container
+    │
+    ├── Contact image
+    │
+    └── Contact form
+        ├── Name
+        ├── Email
+        ├── Subject
+        ├── Message
+        └── Submit button
+        -->
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-heading down-to-up">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you. Get in touch with Coffee House
+                and let us know how we can help.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-left-side from-left">
+                <div class="contact-info">
+                    <h3>Contact <span>Info</span></h3>
+                    <div class="contact-info-cards">
+                        <div class="info-text">
+                            <span>📩</span>
+                            <span>:Email</span>
+                            <span>Example123@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-info-cards">
+                        <div class="info-text">
+                            <span>📍</span>
+                            <span>:Location</span>
+                            <span>Not Yet.</span>
+                        </div>
+                    </div>
+                    <div class="contact-info-cards">
+                        <div class="info-text">
+                            <span>🕓</span>
+                            <span>:Opening</span>
+                            <span>24/7</span>
+                        </div>
+                    </div>
+                </div><!-- contact info closing tag -->
+            </div><!-- contact form-left-side closing tag -->
+
+            <div class="contact-form-wrapper from-right">
+                <form action="https://formspree.io/f/xqpzogpd" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">:Name</label>
+                        <input type="name" name="name" id="name" required placeholder="Your Name..">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">:email</label>
+                        <input type="email" name="email" id="email" required placeholder="Eample123@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">:subject</label>
+                        <input type="text" name="subject" id="subject" required placeholder="Your Subject..">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">:Message</label>
+                        <textarea name="message" id="message" rows="5" placeholder="Write Your Message....."
+                            required></textarea>
+                    </div>
+                    <div class="sumbit-btn">
+                        <input type="submit" value="sumbit">
+                    </div>
+                </form>
+            </div><!-- contact form-wrapper closing tag -->
+        </div> <!-- contact container closing tag -->
+    </section>
+    <!-- 
+┌──────────────────────────────────────────────────────────┐
+│                                                          │
+│  ☕ Coffee House          Quick Links        Follow Us   │
+│                                                          │
+│  Fresh coffee,          Home               Instagram    │
+│  warm moments.           About              Facebook     │
+│                          Menu               YouTube      │
+│                          Gallery            GitHub       │
+│                          Reviews                         │
+│                                                          │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  © 2026 Coffee House                    Made with ☕     │
+│                                                          │
+└──────────────────────────────────────────────────────────┘    
+-->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">
+                    ☕ Coffee House
+                </a>
+                <p>Fresh coffee, warm moments, and
+                    unforgettable experiences.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">youtube</a>
+                    <a href="#">Github</a>
+                    <a href="#">Linkedin</a>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <p class="left-part"> © 2026 Coffee House. All rights reserved.</p>
+            <p class="right-part">Made with ☕ &amp; ❤️</p>
+        </div>
+    </footer>
+
+    <script src="/JS/navbar.js"></script>
+</body>
+
+</html>
