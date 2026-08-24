@@ -148,6 +148,9 @@
 }
     .about-image-wrapper img{
         object-fit:cover;
-         flex: 1;
+    }
+    .about-image-wrapper{
+        max-width:400px;
+        width:100%;
     }
 }
