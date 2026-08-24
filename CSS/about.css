@@ -1,4 +1,4 @@
-.about-bg-color {
+  .about-bg-color {
     background-color: #ffc0cb;
 }
 
@@ -148,9 +148,10 @@
 }
     .about-image-wrapper img{
         object-fit:cover;
+         width:100%;
     }
     .about-image-wrapper{
         max-width:400px;
-        width:100%;
+       
     }
 }
