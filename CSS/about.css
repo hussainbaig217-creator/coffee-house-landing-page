@@ -147,7 +147,7 @@
     margin-top: 30px;
 }
     .about-image-wrapper img{
-        aspect-ratio: 1/1;
+        object-fit:cover;
          flex: 1;
     }
 }
