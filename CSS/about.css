@@ -123,3 +123,31 @@
 .glow-btn:active{
     transform: scale(0.9);
 }
+@media (max-width:900px){
+       /* =================== 
+    About responsive for mobile
+ ==============================*/
+.about-section{
+    padding: 70px 20px;
+    min-height: 100dvh;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-content p{
+    margin-top: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.about-socials{
+    margin-top: 30px;
+}
+    .about-image-wrapper img{
+        aspect-ratio: 1/1;
+         flex: 1;
+    }
+}
