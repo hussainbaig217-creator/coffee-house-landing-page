@@ -1,14 +1,15 @@
+:root{
+       --card-bg: #ffffff;
+    --card-border: #e8d8d2;
 
-:root {
-    --card-color: #fffaf5;
-    --card-text: #3b141c;
-    --card-description: #28201f;
-    --card-accent: #f3961c;
+    --card-title: var(--primary-color);
+    --card-text: #251d0b;
 
-    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
-    --card-radius: 18px;
+    --card-price: var(--secondary-color);
+
+    --card-hover-border: var(--secondary-color);
+
 }
-
 .menu-section{
     padding: 80px 20px;
     min-height: 100vh;
@@ -17,11 +18,33 @@
 }
 .menu-heading{
     text-align: center;
-    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.menu-badge{
+    padding: 6px 16px;
+    letter-spacing: 3px;
+    background-color: black;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    font-size: clamp(0.8rem,0.9rem,0.98rem);
+    font-family: var(--font-accent);
+}
+.menu-heading h2{
+        color: var(--secondary-color);
+    line-height: 1.4;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 1rem;
     font-weight: 500;
-    font-family: ui-monospace;
-    letter-spacing: 1px;
-    color: #f8a813;
+}
+.menu-heading h2 span{
+    color: cornsilk;
+}
+.menu-heading p{
+    font-size: clamp(0.9rem, 1.1rem, 1rem);
+    color: var(--white-color);
 }
 .menu-grid{
     /* if you want to use it you can but its broken !!!!
@@ -42,26 +65,30 @@
 .menu-card{
     flex: 1 1 300px;
     max-width: 350px;
-    background-color: var(--card-color);
+    background-color: #ff924aa1;
     width: 100%;
     padding: 1rem;
     border-radius: 12px;
-    border-bottom: 3px solid coral;
-    border-left: 3px solid salmon;
+    border: 2px solid var(--card-border);
+    /* border-bottom: 3px solid coral; */
+    /* border-left: 3px solid salmon; */
     box-shadow: 0 4px 10px var(--card-shadow);
     transition: all 0.3s ease;
 }
+
 .menu-card:hover{
+    color: rgb(255, 255, 255);
     transform: translateY(-8px);
     box-shadow: 0 8px 16px #ff9125;
-    background-color: #eeb0fef9;
+    background-color: #ff781ea1;
 }
+
 .menu-card h3{
         font-size: 1.4rem;
     font-weight: 600;
 font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    color: #814c00;
+    color: var(--card-title);
     text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -77,7 +104,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .menu-price{
       font-size: var(--font-size-l);
-    color: var(--card-accent);
+    color: var(--card-price);
     text-align: right;
     font-family: serif;
     letter-spacing: 1px;
