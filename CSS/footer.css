@@ -23,14 +23,14 @@
     font-size: clamp(1rem, 1.2rem, 1.5rem);
     color: lightpink;
     font-weight: 600;
-    font-family: cursive;
+    font-family: var(--font-body);
     max-width: 400px;
     padding: 10px;
 }
 .footer-links h3{
      font-size: clamp(1.5rem,1.8rem,2rem);
     text-decoration: none;
-    color: rgb(191, 141, 149);
+    color: lightpink;
 }
 
 .footer-links ul{
@@ -50,7 +50,7 @@
     text-decoration: none;
     color: palevioletred;
     font-size: clamp(0.9rem, 1rem, 1.2rem);
-    font-family: cursive;
+    font-family: var(--font-body);
     font-weight: bolder;
 }
 .footer-links ul li:hover{
@@ -72,7 +72,7 @@
     text-align: center;
     color: palevioletred;
     font-size: clamp(0.9rem, 1rem, 1.2rem);
-    font-family: cursive;
+    font-family: var(--font-body);
     font-weight: bolder;
     transition: all 0.3s ease;
 }
@@ -90,12 +90,14 @@
 }
 .left-part{
     color: aliceblue;
-    font-size: clamp(1rem, 1.2rem, 1.3rem);
+    font-size: clamp(0.9rem, 1rem, 1.2rem);
+    /* font-size: clamp(1rem, 1.2rem, 1.3rem); */
     font-family: monospace;
     font-weight: 500;
 }
 .right-part{
-    font-size: clamp(1rem, 1.2rem, 1.3rem);
+    font-size: clamp(0.9rem, 1rem, 1.2rem);
+    /* font-size: clamp(1rem, 1.2rem, 1.3rem); */
     color: palevioletred;
     font-family:cursive;
     font-weight: 500;
@@ -115,8 +117,12 @@
         margin-top: 20px;
     }
     .footer-bottom{
-        justify-content: center;
+        /* justify-content: center; */
+        text-align: center;
         flex-direction: column;
         margin-top: 20px;
+    }
+    .footer-bottom .left-part{
+        margin-bottom:20px;
     }
 }
