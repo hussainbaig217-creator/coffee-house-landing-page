@@ -34,7 +34,8 @@
 }
 .section-title{
      text-align: center;
-     font-size: clamp(2rem, 4vw, 3.3rem);
+      font-size: clamp(2rem, 3rem, 3.3rem);
+     /* font-size: clamp(2rem, 4vw, 3.3rem); */
    /* font-size: clamp(2rem, 3vw, 3.5rem); */
     /* font-size: clamp(2.5rem, 4vw, 3rem); */
     /* margin-top: 20px; */
