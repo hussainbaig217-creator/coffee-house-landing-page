@@ -1,5 +1,5 @@
   .about-bg-color {
-    background-color: #ffc0cb;
+    background-color: var(--secondary-color);
 }
 
 .about-section {
@@ -13,7 +13,36 @@
     align-items: center;
     gap: 5rem;
 }
+.about-heading{
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
 
+.about-badge{
+   display: inline-block;
+    padding: 6px 16px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    background: var(--primary-color);
+    margin-bottom: 1.25rem;
+    font-family: ui-serif;
+}
+.section-title{
+     text-align: center;
+     font-size: clamp(2rem, 4vw, 3.3rem);
+   /* font-size: clamp(2rem, 3vw, 3.5rem); */
+    /* font-size: clamp(2.5rem, 4vw, 3rem); */
+    /* margin-top: 20px; */
+    /* line-height: 1.2; */
+    /* letter-spacing: 1.2px; */
+    color: black;
+    font-family: var(--font-heading);
+}
 .about-image-wrapper {
     flex: 1;
     display: flex;
@@ -32,7 +61,7 @@
 
 .about-content {
     flex: 1;
-    max-width: 550px;
+    /* max-width: 550px; */
 }
 
 .about-socials img {
@@ -52,19 +81,16 @@
     transform: scale(0.9);
 }
 
-.about-content h2 {
-    text-align: center;
-    font-size: clamp(2.5rem, 4vw, 3rem);
-    margin-bottom: 20px;
-    line-height: 1.2;
-    letter-spacing: 1.2px;
-}
+/* .about-content h2 {
+   
+} */
 
 .about-content p {
-    font-size: 1.3rem;
-    line-height: 1.2;
-    letter-spacing: 0.8px;
-    font-weight: 500;
+    font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+    line-height: 1.8;
+    font-family: var(--font-body);
+    /* letter-spacing: 0.8px; */
+    /* font-weight: 500; */
 }
 
 .about-socials {
@@ -139,19 +165,22 @@
     text-align: center;
 }
 .about-content p{
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: left;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 .about-socials{
     margin-top: 30px;
 }
     .about-image-wrapper img{
         object-fit:cover;
-         width:100%;
+        object-fit: cover;
+        /* aspect-ratio: 1/1; */
+        width:100%;
     }
     .about-image-wrapper{
-        max-width:400px;
+         flex: 1;
+        /* width:100%; */
        
     }
 }
