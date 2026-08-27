@@ -35,7 +35,8 @@
 .menu-heading h2{
         color: var(--secondary-color);
     line-height: 1.4;
-    font-size: clamp(2rem, 4vw, 3rem);
+    /* font-size: clamp(2rem, 4vw, 3rem); */
+           font-size: clamp(2rem, 4vw, 3.3rem);
     margin-bottom: 1rem;
     font-weight: 500;
 }
