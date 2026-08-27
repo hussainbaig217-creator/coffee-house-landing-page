@@ -3,17 +3,18 @@
 
 <head>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N35K8QZ8');</script>
-<!-- End Google Tag Manager -->
-    <meta name="google-site-verification" content="-IEH-hOEGw9lq5-DIJPvGirnntTU4ZSgN114wn2ozkg" />
-    <meta charset="UTF-8">
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N35K8QZ8');</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee House | Modern Coffee Shop Landing Page</title>
-    <meta name="description" content="Coffee House is a modern responsive coffee shop landing page featuring a coffee menu, gallery, customer reviews, contact section, and more.">
+    <meta name="description"
+        content="Coffee House is a modern responsive coffee shop landing page featuring a coffee menu, gallery, customer reviews, contact section, and more.">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/variables.css">
@@ -29,10 +30,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N35K8QZ8"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
     <!--     
 ☑ Desktop
 ☑ Tablet
@@ -63,8 +61,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="nav-links">
                 <ul>
                     <li><a href="#home" class="items">Home</a></li>
-                    <li><a href="#about" class="items">About</a></li>
                     <li><a href="#menu" class="items">MENU</a></li>
+                    <li><a href="#about" class="items">About</a></li>
                     <li><a href="#gallery" class="items">Gallery</a></li>
                     <li><a href="#reviews" class="items">Reviews</a></li>
                     <li><a href="#contact" class="items">Contact</a></li>
@@ -86,9 +84,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 │  │ [Order Now] [Contact]│    │                   │  │
 │  └──────────────────────┘    └───────────────────┘  │
 └─────────────────────────────────────────────────────┘ -->
-    <main id="home">
+    <main>
         <div class="hero-bg-color">
-            <section class="hero-section">
+            <section class="hero-section" id="home">
                 <div class="hero-content">
                     <div class="hero-badge">☕ Freshly Brewed</div>
                     <h1 class="hero-h1">Start Your Day <br>
@@ -109,47 +107,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </section>
         </div> <!--- for bg color-->
 
-        <div class="about-bg-color">
-            <section class="about-section" id="about">
+                <!-- Menu section -->
 
-
-                <div class="about-image-wrapper from-left">
-                    <img src="images/burger-frenchfries.png" alt="this is an image of about section">
-                </div>
-                <div class="about-content from-left">
-                    <h2 class="section-title">About Us</h2>
-
-                    <p class="about-description"> At Coffee House, we pride ourselves on being a go-to
-                        destination for coffee lovers and conversation seekers alike.
-                        We're dedicated to providing an exceptional coffee experience
-                        in a cozy and inviting atmosphere, where guests can relax,
-                        unwind, and enjoy their time in comfort.</p>
-                    <div class="about-cta">
-                        <a href="#contact" class="btn dim-btn">Contact us?</a>
-                        <a href="#reviews" class="btn glow-btn">Veiw More</a>
-                    </div>
-                    <div class="about-socials">
-                        <a href="https://www.youtube.com/@YouEdits4" class="btn-links" target="_blank">
-                            <img src="/logo-images/youtube (1).png" alt="this is an image for links" class="link-image">
-                        </a>
-                        <a href="#" class="btn-links" target="_blank">
-                            <img src="/logo-images/linkedin (1).png" alt="this is an image for links"
-                                class="link-image">
-                        </a>
-                        <a href="https://github.com/hussainbaig217-creator" class="btn-links" target="_blank">
-                            <img src="/logo-images/github (1).png" alt="this is an image for links" class="link-image">
-                        </a>
-                        <a href="https://www.instagram.com/spyxhussain/" class="btn-links" target="_blank">
-                            <img src="/logo-images/instagram (1).png" alt="this is an image for links"
-                                class="link-image">
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </div>
         <section class="menu-section" id="menu">
-            <div class="menu-heading">
-                <h2>Our Menu</h2>
+            <div class="menu-heading down-to-up">
+                <span class="menu-badge">Our Menu</span>
+                <h2>Crafted With Passion, <span>Served With Love</span></h2>
+                <p>Discover our selection of freshly prepared coffee, refreshing drinks, and delicious favorites.</p>
             </div>
             <div class="menu-grid">
                 <!-- 1st card -->
@@ -262,8 +226,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </section>
-   
-     <section class="gallery-section" id="gallery">
+
+        <div class="about-bg-color">
+            <section class="about-section" id="about">
+
+                <div class="about-image-wrapper from-left">
+                    <img src="images/burger-frenchfries.png" alt="this is an image of about section">
+                </div>
+
+                <div class="about-content from-left">
+
+                    <div class="about-heading">
+
+                        <span class="about-badge">Our Story</span>
+
+                        <h2 class="section-title">About Us</h2>
+                      
+
+                    </div>
+
+
+                    <p class="about-description"> At Coffee House, we pride ourselves on being a go-to
+                        destination for coffee lovers and conversation seekers alike.
+                        We're dedicated to providing an exceptional coffee experience
+                        in a cozy and inviting atmosphere, where guests can relax,
+                        unwind, and enjoy their time in comfort.</p>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn dim-btn">Contact us?</a>
+                        <a href="#reviews" class="btn glow-btn">Veiw More</a>
+                    </div>
+                    <div class="about-socials">
+                        <a href="https://www.youtube.com/@YouEdits4" class="btn-links" target="_blank">
+                            <img src="/logo-images/youtube (1).png" alt="this is an image for links" class="link-image">
+                        </a>
+                        <a href="#" class="btn-links" target="_blank">
+                            <img src="/logo-images/linkedin (1).png" alt="this is an image for links"
+                                class="link-image">
+                        </a>
+                        <a href="https://github.com/hussainbaig217-creator" class="btn-links" target="_blank">
+                            <img src="/logo-images/github (1).png" alt="this is an image for links" class="link-image">
+                        </a>
+                        <a href="https://www.instagram.com/spyxhussain/" class="btn-links" target="_blank">
+                            <img src="/logo-images/instagram (1).png" alt="this is an image for links"
+                                class="link-image">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="gallery-section" id="gallery">
             <div class="gallery-header down-to-up">
                 <span class="gallery-badge">Our Gallery</span>
                 <h2 class="gallery-title">Dishes <em>&</em> Moments</h2>
@@ -334,7 +346,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </section>
-    <!-- 
+        <!-- 
     ┌──────────────────────────────────┐
     │                                  │
     │  ☕ Coffee House        ⭐⭐⭐⭐⭐ │
@@ -349,110 +361,110 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     └──────────────────────────────────┘
         
         -->
-    <section class="Reveiws-section" id="reviews">
-        <div class="reveiw-section-heading down-to-up">
-            <h2>What Our Customers Say</h2>
-            <p>We love hearing from our customers. Here's what coffee lovers have to say about their experience at
-                Coffee House.</p>
-        </div>
-        <article>
-            <div class="reveiw-container">
-                <div class="reveiw-card  down-to-up">
+        <section class="Reveiws-section" id="reviews">
+            <div class="reveiw-section-heading down-to-up">
+                <h2>What Our Customers Say</h2>
+                <p>We love hearing from our customers. Here's what coffee lovers have to say about their experience at
+                    Coffee House.</p>
+            </div>
+            <article>
+                <div class="reveiw-container">
+                    <div class="reveiw-card  down-to-up">
 
-                    <div class="review-top top">
-                        <div class="user-logo">
-                            <img src="/images/user-2.jpg" alt="this is an image for reveiwing user logo">
+                        <div class="review-top top">
+                            <div class="user-logo">
+                                <img src="/images/user-2.jpg" alt="this is an image for reveiwing user logo">
+                            </div>
+                            <div class="reveiw-rating">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div> <!-- reveiw top -->
+                        <!-- For Custumer name -->
+                        <div class="reveiw-user">
+                            <h3>Sarah Thompson</h3>
                         </div>
-                        <div class="reveiw-rating">
-                            ⭐⭐⭐⭐⭐
+                        <!-- Reveiw text  -->
+                        <div class="reveiw-text">
+                            <p>
+                                “A perfect place to meet friends and enjoy a fresh cup of coffee.”
+                            </p>
                         </div>
-                    </div> <!-- reveiw top -->
-                    <!-- For Custumer name -->
-                    <div class="reveiw-user">
-                        <h3>Sarah Thompson</h3>
-                    </div>
-                    <!-- Reveiw text  -->
-                    <div class="reveiw-text">
-                        <p>
-                            “A perfect place to meet friends and enjoy a fresh cup of coffee.”
-                        </p>
-                    </div>
-                </div> <!-- reveiw card closing tag -->
+                    </div> <!-- reveiw card closing tag -->
 
-                <!-- 2nd reveiw card -->
+                    <!-- 2nd reveiw card -->
 
-                <div class="reveiw-card down-to-up">
+                    <div class="reveiw-card down-to-up">
 
-                    <div class="review-top  top">
-                        <div class="user-logo">
-                            <img src="/images/user-4.jpg" alt="this is an image for reveiwing user logo">
+                        <div class="review-top  top">
+                            <div class="user-logo">
+                                <img src="/images/user-4.jpg" alt="this is an image for reveiwing user logo">
+                            </div>
+                            <div class="reveiw-rating">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div> <!-- reveiw top -->
+                        <!-- For Custumer name -->
+                        <div class="reveiw-user">
+                            <h3>James Wilson</h3>
                         </div>
-                        <div class="reveiw-rating">
-                            ⭐⭐⭐⭐⭐
+                        <!-- Reveiw text  -->
+                        <div class="reveiw-text">
+                            <p>
+                                “The espresso was smooth, rich, and absolutely delicious. Definitely coming back!”
+                            </p>
                         </div>
-                    </div> <!-- reveiw top -->
-                    <!-- For Custumer name -->
-                    <div class="reveiw-user">
-                        <h3>James Wilson</h3>
-                    </div>
-                    <!-- Reveiw text  -->
-                    <div class="reveiw-text">
-                        <p>
-                            “The espresso was smooth, rich, and absolutely delicious. Definitely coming back!”
-                        </p>
-                    </div>
-                </div> <!-- reveiw card closing tag -->
+                    </div> <!-- reveiw card closing tag -->
 
-                <!-- 3rd reveiw card -->
+                    <!-- 3rd reveiw card -->
 
-                <div class="reveiw-card left-right">
+                    <div class="reveiw-card left-right">
 
-                    <div class="review-top  top">
-                        <div class="user-logo">
-                            <img src="/images/user-3.jpg" alt="this is an image for reveiwing user logo">
+                        <div class="review-top  top">
+                            <div class="user-logo">
+                                <img src="/images/user-3.jpg" alt="this is an image for reveiwing user logo">
+                            </div>
+                            <div class="reveiw-rating">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div> <!-- reveiw top -->
+                        <!-- For Custumer name -->
+                        <div class="reveiw-user">
+                            <h3>Michael Brown</h3>
                         </div>
-                        <div class="reveiw-rating">
-                            ⭐⭐⭐⭐⭐
+                        <!-- Reveiw text  -->
+                        <div class="reveiw-text">
+                            <p>
+                                “The cold coffee was fantastic and the dessert was even better. Highly recommended!”
+                            </p>
                         </div>
-                    </div> <!-- reveiw top -->
-                    <!-- For Custumer name -->
-                    <div class="reveiw-user">
-                        <h3>Michael Brown</h3>
-                    </div>
-                    <!-- Reveiw text  -->
-                    <div class="reveiw-text">
-                        <p>
-                            “The cold coffee was fantastic and the dessert was even better. Highly recommended!”
-                        </p>
-                    </div>
-                </div> <!-- reveiw card closing tag -->
+                    </div> <!-- reveiw card closing tag -->
 
-                <!-- 4rth reveiw card -->
+                    <!-- 4rth reveiw card -->
 
-                <div class="reveiw-card down-to-up">
+                    <div class="reveiw-card down-to-up">
 
-                    <div class="review-top  top">
-                        <div class="user-logo">
-                            <img src="/images/user-5.jpg" alt="this is an image for reveiwing user logo">
+                        <div class="review-top  top">
+                            <div class="user-logo">
+                                <img src="/images/user-5.jpg" alt="this is an image for reveiwing user logo">
+                            </div>
+                            <div class="reveiw-rating">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div> <!-- reveiw top -->
+                        <!-- For Custumer name -->
+                        <div class="reveiw-user">
+                            <h3>Emily Harris</h3>
                         </div>
-                        <div class="reveiw-rating">
-                            ⭐⭐⭐⭐⭐
+                        <!-- Reveiw text  -->
+                        <div class="reveiw-text">
+                            <p>
+                                “Beautiful atmosphere, friendly service, and great coffee. I loved the experience.”
+                            </p>
                         </div>
-                    </div> <!-- reveiw top -->
-                    <!-- For Custumer name -->
-                    <div class="reveiw-user">
-                        <h3>Emily Harris</h3>
-                    </div>
-                    <!-- Reveiw text  -->
-                    <div class="reveiw-text">
-                        <p>
-                            “Beautiful atmosphere, friendly service, and great coffee. I loved the experience.”
-                        </p>
-                    </div>
-                </div> <!-- reveiw card closing tag -->
-            </div><!-- reveiw container closing tag -->
-        </article>
-        <!-- 
+                    </div> <!-- reveiw card closing tag -->
+                </div><!-- reveiw container closing tag -->
+            </article>
+            <!-- 
           CONTACT SECTION
 │
 ├── Section heading
@@ -470,69 +482,69 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         ├── Message
         └── Submit button
         -->
-    </section>
+        </section>
 
-    <section class="contact-section" id="contact">
-        <div class="contact-heading down-to-up">
-            <h2>Contact Us</h2>
-            <p>We'd love to hear from you. Get in touch with Coffee House
-                and let us know how we can help.</p>
-        </div>
-        <div class="contact-container">
-            <div class="contact-left-side from-left">
-                <div class="contact-info">
-                    <h3>Contact <span>Info</span></h3>
-                    <div class="contact-info-cards">
-                        <div class="info-text">
-                            <span>📩</span>
-                            <span>:Email</span>
-                            <span>Example123@gmail.com</span>
+        <section class="contact-section" id="contact">
+            <div class="contact-heading down-to-up">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you. Get in touch with Coffee House
+                    and let us know how we can help.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-left-side from-left">
+                    <div class="contact-info">
+                        <h3>Contact <span>Info</span></h3>
+                        <div class="contact-info-cards">
+                            <div class="info-text">
+                                <span>📩</span>
+                                <span>:Email</span>
+                                <span>Example123@gmail.com</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-info-cards">
-                        <div class="info-text">
-                            <span>📍</span>
-                            <span>:Location</span>
-                            <span>Not Yet.</span>
+                        <div class="contact-info-cards">
+                            <div class="info-text">
+                                <span>📍</span>
+                                <span>:Location</span>
+                                <span>Not Yet.</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-info-cards">
-                        <div class="info-text">
-                            <span>🕓</span>
-                            <span>:Opening</span>
-                            <span>24/7</span>
+                        <div class="contact-info-cards">
+                            <div class="info-text">
+                                <span>🕓</span>
+                                <span>:Opening</span>
+                                <span>24/7</span>
+                            </div>
                         </div>
-                    </div>
-                </div><!-- contact info closing tag -->
-            </div><!-- contact form-left-side closing tag -->
+                    </div><!-- contact info closing tag -->
+                </div><!-- contact form-left-side closing tag -->
 
-            <div class="contact-form-wrapper from-right">
-                <form action="https://formspree.io/f/xqpzogpd" method="post" class="contact-form">
-                    <div class="form-group">
-                        <label for="name">:Name</label>
-                        <input type="name" name="name" id="name" required placeholder="Your Name..">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">:email</label>
-                        <input type="email" name="email" id="email" required placeholder="Eample123@gmail.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">:subject</label>
-                        <input type="text" name="subject" id="subject" required placeholder="Your Subject..">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">:Message</label>
-                        <textarea name="message" id="message" rows="5" placeholder="Write Your Message....."
-                            required></textarea>
-                    </div>
-                    <div class="sumbit-btn">
-                        <input type="submit" value="sumbit">
-                    </div>
-                </form>
-            </div><!-- contact form-wrapper closing tag -->
-        </div> <!-- contact container closing tag -->
-    </section>
-</main>
+                <div class="contact-form-wrapper from-right">
+                    <form action="https://formspree.io/f/xqpzogpd" method="post" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">:Name</label>
+                            <input type="name" name="name" id="name" required placeholder="Your Name..">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">:email</label>
+                            <input type="email" name="email" id="email" required placeholder="Eample123@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">:subject</label>
+                            <input type="text" name="subject" id="subject" required placeholder="Your Subject..">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">:Message</label>
+                            <textarea name="message" id="message" rows="5" placeholder="Write Your Message....."
+                                required></textarea>
+                        </div>
+                        <div class="sumbit-btn">
+                            <input type="submit" value="sumbit">
+                        </div>
+                    </form>
+                </div><!-- contact form-wrapper closing tag -->
+            </div> <!-- contact container closing tag -->
+        </section>
+    </main>
     <!-- 
 ┌──────────────────────────────────────────────────────────┐
 │                                                          │
@@ -579,11 +591,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="social-links">
                     <a href="https://www.instagram.com/spyxhussain/">Instagram</a>
                     <a href="https://www.youtube.com/@YouEdits4">youtube</a>
-                     <a href="https://github.com/hussainbaig217-creator">Github</a>
+                    <a href="https://github.com/hussainbaig217-creator">Github</a>
                     <a href="#">Linkedin</a>
                 </div>
             </div>
         </div>
+        <hr>
         <!-- Bottom -->
         <div class="footer-bottom">
             <p class="left-part"> © 2026 Coffee House. All rights reserved.</p>
