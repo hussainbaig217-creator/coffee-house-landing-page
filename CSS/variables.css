@@ -1,28 +1,20 @@
+/* ========================================
+   ☕ COFFEE HOUSE — DESIGN VARIABLES
+======================================== */
 
-html{
-    scroll-behavior: smooth;
-}
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 
 :root {
-    /* ================================
-       🎨 COLORS
-    ================================= */
 
-    --white-color: #fff;
-    --dark-color: #25252525;
-    --primary-color: #3b141c;
-    --secondary-color: #f3961c;
-    --light-pink-color: #faf4f5;
-    --medium-gray-color: #ccc;
-
-
-    /* ================================
+    /* ========================================
        🔤 TYPOGRAPHY
-    ================================= */
+    ======================================== */
 
-    --font-heading: "Playfair Display", serif;
     --font-body: "Poppins", sans-serif;
+    --font-heading: "Playfair Display", serif;
+    --font-accent:  "cursive" "arial";
 
     --font-size-s: 0.9rem;
     --font-size-n: 1rem;
@@ -31,42 +23,97 @@ html{
     --font-size-xl: 2rem;
     --font-size-xxl: 2.3rem;
 
-    /* ================================
-       📐 fonts weight
-    ================================= */
-
     --font-weight-normal: 400;
     --font-weight-medium: 500;
-    --font-weight-semibold: 400;
-    --font-weight-bold: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
 
-    /* Border Radius */
 
-    --border-radius-s:8px;
-    --border-radius-m:30px;
-    --border-radius-circle:50%;
+    /* ========================================
+       🎨 BRAND COLORS
+    ======================================== */
 
-    /* ================================
+    --white-color: #ffffff;
+    --dark-color: #252525;
+
+    --primary-color: #3b141c;
+    --secondary-color: #f3961c;
+
+    --light-pink-color: #faf4f5;
+    --medium-gray-color: #cccccc;
+
+
+    /* ========================================
+       ☕ MENU / CARD COLORS
+    ======================================== */
+
+    --card-bg: #ffffff;
+    --card-border: #e8d8d2;
+
+    --card-title: var(--primary-color);
+    --card-text: #6b5b5b;
+
+    --card-price: var(--secondary-color);
+
+    --card-hover-border: var(--secondary-color);
+
+
+    /* ========================================
+       📐 BORDER RADIUS
+    ======================================== */
+
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+
+
+    /* ========================================
        📏 LAYOUT
-    ================================= */
+    ======================================== */
 
     --site-max-width: 1300px;
-   
-    /* ================================
+
+
+    /* ========================================
        🌑 SHADOWS
-    ================================= */
+    ======================================== */
 
     --shadow-sm: 0 4px 12px rgba(36, 19, 12, 0.08);
+
     --shadow-md: 0 10px 30px rgba(36, 19, 12, 0.12);
+
     --shadow-lg: 0 20px 50px rgba(36, 19, 12, 0.16);
 
 
-    /* ================================
+    /* ========================================
        ⚡ TRANSITIONS
-    ================================= */
+    ======================================== */
 
     --transition-fast: 0.2s ease;
+
     --transition: 0.3s ease;
+
     --transition-slow: 0.5s ease;
 }
 
+
+/* ========================================
+   🌐 GLOBAL TYPOGRAPHY
+======================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
